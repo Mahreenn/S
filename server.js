@@ -30,4 +30,4 @@ app.post('/solve', (req,res) => {
       })
 })
 
-app.listen(PORT, () => console.log('server listening on PORT ${PORT}'))
+app.listen(PORT, () => console.log(`server listening on PORT ${PORT}`));
